@@ -2,6 +2,11 @@
 
 Hey there! 👋 Welcome to my Netflix clone project. I built this using React and Node.js to recreate the awesome Netflix experience we all love. It's got all the cool features like trailer previews, that smooth Netflix UI, and real content from TMDB.
 
+## 🔴 Live Demo
+Check out the working app here: [Netflix Clone Live Demo](https://netflix-clone-five-peach.vercel.app/)
+
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg?style=for-the-badge&logo=vercel)](https://netflix-clone-five-peach.vercel.app/)
+
 ## What's Inside
 
 ### Home Page
@@ -130,4 +135,37 @@ TMDB_API_KEY=your_api_key_here
 TMDB_BASE_URL=https://api.themoviedb.org/3
 ```
 
-Remember: Never share your API keys publicly! Use secure channels to share sensitive info with your team. 
+Remember: Never share your API keys publicly! Use secure channels to share sensitive info with your team.
+
+## 🚀 Live Demo
+Check out the live demo: [Netflix Clone](your-deployed-url-here)
+
+## Deployment
+
+### Frontend Deployment (Vercel)
+1. Create an account on [Vercel](https://vercel.com)
+2. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
+3. Navigate to the client directory:
+   ```bash
+   cd client
+   ```
+4. Deploy to Vercel:
+   ```bash
+   vercel
+   ```
+5. Follow the prompts and your site will be live!
+
+### Backend Deployment (Render)
+1. Create an account on [Render](https://render.com)
+2. Create a new Web Service
+3. Connect your GitHub repository
+4. Configure the service:
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+5. Add your environment variables in Render's dashboard
+6. Deploy!
+
+Remember to update the API URL in your frontend code to point to your Render backend URL. 
