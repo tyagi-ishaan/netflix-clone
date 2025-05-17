@@ -2,15 +2,15 @@
   "name": "netflix-clone",
   "version": "1.0.0",
   "description": "Netflix clone using Node.js, Express, and React",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "server": "nodemon server/server.js",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-client": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run install-client && npm run build"
+    "build-client": "cd client && npm run build",
+    "build": "npm install && npm run install-client && npm run build-client"
   },
   "keywords": ["netflix", "clone", "react", "express", "node"],
   "author": "",
