@@ -163,4 +163,22 @@ Planned features:
 - Personalized recommendations
 - Watchlist functionality
 - Enhanced search capabilities
-- Multiple language support 
+- Multiple language support
+
+## Environment Variables Setup
+
+For security reasons, environment variables are not committed to the repository. To run this project:
+
+1. Create a `.env` file in the root directory
+2. Check `.env.example` for the required environment variables
+3. Get your API keys from [TMDB](https://www.themoviedb.org/documentation/api)
+4. Never commit your actual `.env` file to the repository
+5. Share environment variables with team members through secure channels
+
+Example `.env` structure:
+```
+TMDB_API_KEY=your_api_key_here
+TMDB_BASE_URL=https://api.themoviedb.org/3
+```
+
+Note: The actual API keys and sensitive data should never be committed to the repository. Always use secure channels (like encrypted messages or password managers) to share sensitive information with team members. 
